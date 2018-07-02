@@ -1,7 +1,7 @@
 # Weekly Nerd
 During my minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below. 
 
-## Weekly Nerd Sketchnotes
+## Sketchnotes
 
 - [Brit Wijnmalen - Sketchnotes](./weekly-nerds/week-1.md)
 - [Titus Wormer (HvA) - Advanced Git Tips & Tricks](./weekly-nerds/week-2.md)
