@@ -3,17 +3,17 @@ During the minor Web Development I attented different Workshops and lectures by 
 
 ## Sketchnotes
 
-- [Brit Wijnmalen - Sketchnotes](./weekly-nerds/week1.md)
-- [Titus Wormer (HvA) - Advanced Git Tips & Tricks](./weekly-nerds/week2.md)
-- [Peter Paul Koch (PPK) - Browser bloat](./weekly-nerds/week3.md)
-- [Anne van den Hoogen (Tamtam) - Developer](./weekly-nerds/week4.md)
-- [Jasper Moelker (Voorhoede) - DevLovesDes](./weekly-nerds/week5.md)
-- [Ischa Gast (Schiphol) - Accessibility](./weekly-nerds/week6.md)
-- [Niels Leenheer (HTML5test) - Obscure browsers](./weekly-nerds/week7.md)
-- Peter Peerdeman (Lifely) - GraphQL - __Canceled__
-- Léonie Watson - Inclusive Design - __Canceled__
-- Hackaton @ Master Digital Design - Rapid Prototyping
-- [Vitaly Friedman (Smashing Magazine) - Where we are heading](./weekly-nerds/week11.md)
-- [Bruce Lawson (W3C) - Current State](./weekly-nerds/week12.md)
+1. [Brit Wijnmalen - Sketchnotes](./weekly-nerds/week1.md)
+2. [Titus Wormer (HvA) - Advanced Git Tips & Tricks](./weekly-nerds/week2.md)
+3. [Peter Paul Koch (PPK) - Browser bloat](./weekly-nerds/week3.md)
+4. [Anne van den Hoogen (Tamtam) - Developer](./weekly-nerds/week4.md)
+5. [Jasper Moelker (Voorhoede) - DevLovesDes](./weekly-nerds/week5.md)
+6. [Ischa Gast (Schiphol) - Accessibility](./weekly-nerds/week6.md)
+7. [Niels Leenheer (HTML5test) - Obscure browsers](./weekly-nerds/week7.md)
+8. Peter Peerdeman (Lifely) - GraphQL - __Canceled__
+9. Léonie Watson - Inclusive Design - __Canceled__
+10. Hackaton @ Master Digital Design - Rapid Prototyping
+11. [Vitaly Friedman (Smashing Magazine) - Where we are heading](./weekly-nerds/week11.md)
+12. [Bruce Lawson (W3C) - Current State](./weekly-nerds/week12.md)
 
 ## Articles
