@@ -1,5 +1,5 @@
 # Weekly Nerd
-During the minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below.  I also wrote 5 articles about the techniques/themes discussed in the lectures and workshops.
+During the minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below. I also wrote 5 articles about the techniques/themes discussed in these lectures and workshops.
 
 ## Sketchnotes
 
@@ -12,8 +12,13 @@ During the minor Web Development I attented different Workshops and lectures by 
 7. [Niels Leenheer (HTML5test) - Obscure browsers](./weekly-nerds/week7.md)
 8. Peter Peerdeman (Lifely) - GraphQL - __Canceled__
 9. Léonie Watson - Inclusive Design - __Canceled__
-10. Hackaton @ Master Digital Design - Rapid Prototyping
+10. Hackaton @ Master Digital Design - Rapid Prototyping - __Didn't attend__
 11. [Vitaly Friedman (Smashing Magazine) - Where we are heading](./weekly-nerds/week11.md)
 12. [Bruce Lawson (W3C) - Current State](./weekly-nerds/week12.md)
 
 ## Articles
+
+1. [Native App vs Web App](./articles/artice1.md)
+3. [The BEM way](./articles/articl3.md)
+4. [Git: Editing your commits](./articles/article4.md)
+5. [Git: Editing your commits](./articles/article4.md)
