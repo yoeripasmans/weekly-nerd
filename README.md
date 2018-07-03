@@ -1,5 +1,5 @@
 # Weekly Nerd
-During my minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below. 
+During my minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below.  I also wrote 5 articles about the techniques/themes discussed in the lectures and workshops.
 
 ## Sketchnotes
 
@@ -10,8 +10,8 @@ During my minor Web Development I attented different Workshops and lectures by c
 - [Jasper Moelker (Voorhoede) - DevLovesDes](./weekly-nerds/week-5.md)
 - [Ischa Gast (Schiphol) - Accessibility](./weekly-nerds/week-6.md)
 - [Niels Leenheer (HTML5test) - Obscure browsers](./weekly-nerds/week-7.md)
-- [Peter Peerdeman (Lifely) - GraphQL] - __Canceled__
-- [Léonie Watson - Inclusive Design] - __Canceled__
+- Peter Peerdeman (Lifely) - GraphQL - __Canceled__
+- Léonie Watson - Inclusive Design - __Canceled__
 - [Vitaly Friedman (Smashing Magazine) - Where we are heading](./weekly-nerds/week-11.md)
 - [Bruce Lawson (W3C) - Current State](./weekly-nerds/week-12.md)
 
