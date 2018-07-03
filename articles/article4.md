@@ -1,4 +1,6 @@
-# Git: Editing your commits
+[< Back](../README.md)
+
+# Git: Editing your commits 
 
 The more I work with git, more I realize how powerful it is. I discovered that there is a way to organize/edit your commits. For what? Some useful cases:
 
