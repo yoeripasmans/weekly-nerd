@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-#7 Niels Leenheer (HTML5test) - Obscure browsers
+# #7 Niels Leenheer (HTML5test) - Obscure browsers
 
 ![](../images/week7.jpg)
 

@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-#12 - Bruce Lawson (W3C) - Current State
+# #12 - Bruce Lawson (W3C) - Current State
 
 ![](../images/week12.jpg)
 

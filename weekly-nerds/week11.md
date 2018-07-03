@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-#11 - Vitaly Friedman (Smashing Magazine) - Where we are heading
+# #11 - Vitaly Friedman (Smashing Magazine) - Where we are heading
 
 ![](../images/week11.jpg)
 

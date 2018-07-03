@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-#2 Titus Wormer (HvA) - Advanced Git Tips & Tricks
+# #2 Titus Wormer (HvA) - Advanced Git Tips & Tricks
 
 ![](../images/week2.jpg)
 
