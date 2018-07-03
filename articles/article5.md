@@ -1,8 +1,8 @@
+[< Back](../README.md)
+
 # Git: Update your fork
 
-Contribute in open source projects is one of the coolest things in development area. I also remember, that some years ago, the topic of one edition of FEMUG was exactly this: the contribution in open source projects.
-
-It’s common to be ashamed to contribute with some project, and one of the reasons for it is because you don’t think you have something to contribute. And that’s the point: you can start with anything: a simple revision of code or even a translation.
+Contribute in open source projects is one of the coolest things in development area. It’s common to be ashamed to contribute with some project, and one of the reasons for it is because you don’t think you have something to contribute. And that’s the point: you can start with anything: a simple revision of code or even a translation.
 
 ## The proccess
 As you get used to contribute, the proccess becomes automatic. But for a person who is going to contribute for the first time, some parts could be confusing.
@@ -44,3 +44,7 @@ Now if you want to update your Github repository with your local repository befo
 $ git push origin master
 ```
 And that’s it! Now our local project is sync and updated with the original version, and if you send the changes to GitHub, the pull request will be enabled.
+
+## Sources
+- [https://help.github.com/](https://help.github.com/)
+- [https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)

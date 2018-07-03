@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-# Git: Editing your commits 
+# Git: Editing your commits
 
 The more I work with git, more I realize how powerful it is. I discovered that there is a way to organize/edit your commits. For what? Some useful cases:
 
@@ -115,13 +115,15 @@ And it’s done! If we run a simple log, we will see the commits list with the m
 74e6f3e More CSS adjustments in slideshow.
 9afe987 CSS and JS adjusments in slideshow.
 ```
-Forcing the push
-As reminded by Cicero Pablo, when we use the interactive rebase, if you already have a repository with a history of commits, you will have to use the push command with the --force flag.
-
-There is more…
-You can read the second part of this article that we talk about merge and split commits.
+## Forcing the push
+When we use the interactive rebase, if you already have a repository with a history of commits, you will have to use the push command with the --force flag.
 
 Some points:
 
 - The names/structure of the files and message of commits are only for example.
 - I used the word screen to make reference to every return of terminal after a command.
+
+## Sources
+- [https://help.github.com/](https://help.github.com/)
+- [https://help.github.com/articles/changing-a-commit-message/](https://help.github.com/articles/changing-a-commit-message/)
+- [https://gist.github.com/nepsilon/156387acf9e1e72d48fa35c4fabef0b4](https://gist.github.com/nepsilon/156387acf9e1e72d48fa35c4fabef0b4)
