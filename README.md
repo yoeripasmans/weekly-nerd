@@ -1,5 +1,5 @@
 # Weekly Nerd
-During my minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below.  I also wrote 5 articles about the techniques/themes discussed in the lectures and workshops.
+During the minor Web Development I attented different Workshops and lectures by companies and designers of the Frontend Development field. During these workshops and lectures I made several sketchnotes which can be found below.  I also wrote 5 articles about the techniques/themes discussed in the lectures and workshops.
 
 ## Sketchnotes
 
