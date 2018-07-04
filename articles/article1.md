@@ -1,21 +1,138 @@
-# Service Worker at your service
+# ES6 To the rescue
 
-Progressive Web Apps bring a lot of potential to the web. The new possibilities make it possible to build native web apps that integrate closer with people’s devices.
+In this article, I will cover some of the most important features in ES6. It will be helpful if you are new to ES6 or learning front-end frameworks.
 
-## Service Workers
-It took a bit of a time for Service Workers to fit in. It’s not like any other technology we’ve had on the web, until now.
+## Let
 
-They’re a part of the web-app, yet they’re not able to touch the DOM in any way. Service Workers are a proxy that live between the web-app and the user. They work in a separate thread and can cache assets, hook into requests, and communicate with the website trough messages.
+The keyword `let` allows us creating block scopes in JavaScript. Let’s see some examples.
 
-Service Workers are installed on the user browser after the page has loaded for the first time. After the first install event, the worker can start interfering with requests using the fetch event. When a new version of the Service Worker is deployed, the browser will automatically detect byte differences and activate the worker version on next visit.
+### Block scope
+Using var.
+```js
+var me = 'James Bond';
 
-## Lighthouse
+if(true) {
+  var me = 'Chuck Norris';
+}
 
-There are a lot of quality checks to do when building PWAs, here are some of them:
+console.log(me);
+// Chuck Norris
+```
 
-- App can load on offline/slow connections and page load performance is fast
-- App is built using Progressive Enhancement principles
-- App is using HTTPS for secure communications
-- Users will be prompted to Add to Home screen
-- Installed web app will launch with Custom Splash Screen and address bar will match brand colours
-- To confirm the above requirements are met, a tool called Lighthouse is the golden standard. Lighthouse is a Chrome extension that will analyze any site for Progressive Web App best practices. It shouldn’t be taken as gospel (even though we did), but it’s super helpful.
+Using let.
+```js
+let me = 'James Bond';
+
+if(true) {
+  let me = 'Chuck Norris';
+}
+
+console.log(me);
+// James Bond
+```
+
+## Const
+
+Constants are block-scoped, much like variables defined using the let statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
+
+```js
+const foo = 10;
+foo = 5; // Shows error. You cannot change the value of const.
+const bar = 'Constant variable';
+bar = 'Assigning new value'; // Shows error.
+```
+
+## Arrow functions
+The arrow functions at first might seem confusing, but after a while, you can understand their shorter syntax and the magic of the scope of this. See the example below.
+
+### Example of arrow function
+```js
+let newWay = (name, nickname) => {
+  return 'My name is ' + nickname + ', ' + name;
+};
+
+console.log( newWay('James Bond', 'Bond') );
+// My name is Bond, James Bond
+```
+
+### Scope
+Without arrow functions.
+
+```js
+var sandwich = {
+  bread: 'white',
+  cheese: 'blue',
+
+  prepare: function() {
+    return 'I want a sandwich with ' + this.bread + ' bread and ' + this.cheese + ' cheese';
+  },
+
+  make: function() {
+    var that = this;
+    window.setTimeout( function () {
+      console.log( that.prepare() );
+    }, 100 );
+  }
+
+};
+
+// sandwich.make();
+// I want a sandwich with white bread and blue cheese
+```
+With arrow functions.
+```js
+let newSandwich = {
+  bread: 'white',
+  cheese: 'blue',
+
+  prepare: function() {
+    return 'I want a sandwich with ' + this.bread + ' bread and ' + this.cheese + ' cheese';
+  },
+
+  make: function() {
+    window.setTimeout( () => console.log(this.prepare()), 100 );
+  }
+
+};
+
+// newSandwich.make();
+// I want a sandwich with white bread and blue cheese
+```
+## Spread operator
+
+The spread operator allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:
+
+```js
+let actors = ['James Bond', 'Chuck Norris', 'Jason Bourne'];
+let newCharacters = ['Bruce', 'Kitana'];
+```
+If we had to add the new actors to the main array, we could try something like that:
+
+```js
+actors.push(newCharacters);
+
+console.log(actors);
+// ['James Bond', 'Chuck Norris', 'Jason Bourne', ['Bruce', 'Kitana']]
+```
+The data is there, but not in the way that we want. So we need to manipulate it before:
+```js
+newCharacters.forEach(function(actor) {
+  actors.push(actor);
+});
+
+console.log(actors);
+// ['James Bond', 'Chuck Norris', 'Jason Bourne', 'Bruce', 'Kitana']
+```
+The operator spread arrives making magic and leaving everything beautiful.
+```js
+actors.push(...newCharacters);
+
+console.log(actors);
+// ['James Bond', 'Chuck Norris', 'Jason Bourne', 'Bruce', 'Kitana']
+```
+
+## Sources
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+- [https://es6.io/](https://es6.io/)
+- [http://es6-features.org/#Constants](http://es6-features.org/#Constants)
