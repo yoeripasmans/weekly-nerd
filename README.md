@@ -18,8 +18,8 @@ During the minor Web Development I attented different Workshops and lectures by 
 
 ## Articles
 
-1. [Native App vs Web App](./articles/artice1.md)
-2. [Preventing user errors](./articles/artice2.md)
+1. [Native App vs Web App](./articles/article1.md)
+2. [Preventing user errors](./articles/article2.md)
 3. [The BEM way](./articles/article3.md)
 4. [Git: Editing your commits](./articles/article4.md)
 5. [Git: Update your Fork](./articles/article5.md)
